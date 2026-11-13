@@ -6,6 +6,11 @@ Academic engineering project focused on **continuous circuit monitoring, thresho
 
 ## Project overview
 
+**Figure 1 — LabVIEW Front Panel (idle state).** Operator interface showing resistance and voltage inputs, measurement gauges, circuit selection, and system status with the application switched off. The original screenshot will appear below after `images/front-panel.jpg` is uploaded.
+
+![Figure 1 — LabVIEW Front Panel idle state](images/front-panel.jpg)
+
+
 The application models a four-resistor DC circuit consisting of R1 and R2 in series with a parallel network (R3 || R4). An interactive LabVIEW Front Panel accepts a supply voltage and four resistor values, calculates the electrical quantities, and shows measurements, status and warning/error indicators while the program is running.
 
 **Automation-relevant features**
@@ -17,6 +22,12 @@ The application models a four-resistor DC circuit consisting of R1 and R2 in ser
 - Operating ON/OFF control and status feedback
 - Current and power warning/error indicators based on predefined limits
 - Input-voltage limit handling described in the project report
+
+## Graphical programming & monitoring logic
+
+**Figure 2 — LabVIEW Block Diagram, Formula Node excerpt.** The graphical programming view shows circuit inputs, equations, selected measurements and warning/error outputs. It is a *close-up of the Formula Node* rather than a screenshot of the entire Block Diagram.
+
+![Figure 2 — LabVIEW Formula Node in Block Diagram](images/block-diagram.jpg)
 
 ## Example: monitored fault condition
 
@@ -30,6 +41,10 @@ With **R1 = 0.5 kΩ, R2 = 0.5 kΩ, R3 = 1.2 kΩ, R4 = 1.2 kΩ and Vin = 26 V**, 
 | Total power | 422.5 mW |
 
 Both **Hata 1 (overcurrent)** and **Hata 2 (excessive displayed power)** were visibly active. These demonstrate calculation and fault indication for this tested condition, not comprehensive verification of every protection case.
+
+**Figure 3 — Monitoring & Fault Detection.** Actual Front Panel screenshot at 26 V: 16.25 mA and 422.5 mW with two red error indicators and relevant operator messages.
+
+![Figure 3 — Current and power alarms triggered at 26 V](images/monitoring-and-alarms.jpg)
 
 ## Engineering relevance
 
@@ -52,7 +67,7 @@ This exercise develops principles transferable to **PLC / HMI / industrial autom
 
 ## Source and supporting files
 
-The original **LabVIEW .vi**, PDF engineering report, and authentic screenshots are separate project assets. See [source assets](docs/source-assets.md) for the upload checklist and asset names; they should be uploaded before claiming they are included in this repository.
+The original **LabVIEW .vi**, PDF engineering report, and authentic screenshots are separate project assets. The README has image links for three screenshots; they will render after the corresponding JPGs are uploaded to `images/`. See [source assets](docs/source-assets.md) for the upload checklist and asset names.
 
 ## Validation scope
 
