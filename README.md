@@ -67,7 +67,7 @@ This exercise develops principles transferable to **PLC / HMI / industrial autom
 
 ## Source and supporting files
 
-The original **LabVIEW .vi**, PDF engineering report, and authentic screenshots are separate project assets. The README has image links for three screenshots; they will render after the corresponding JPGs are uploaded to `images/`. See [source assets](docs/source-assets.md) for the upload checklist and asset names.
+The original [LabVIEW VI](source/Electrical%20Circuit%20Monitoring%20%26%20Protection%20System.vi), [PDF engineering report](report/LabVIEW_Electrical_Circuit_Monitoring_Report.pdf), and all three authentic screenshots are uploaded to this repository. See [source assets](docs/source-assets.md) for the filenames and usage notes.
 
 ## Validation scope
 
