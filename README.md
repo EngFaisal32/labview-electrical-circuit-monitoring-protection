@@ -6,9 +6,9 @@ Academic engineering project focused on **continuous circuit monitoring, thresho
 
 ## Project overview
 
-**Figure 1 — LabVIEW Front Panel (idle state).** Operator interface showing resistance and voltage inputs, measurement gauges, circuit selection, and system status with the application switched off. The original screenshot will appear below after `images/front-panel.jpg` is uploaded.
+**Figure 1 — LabVIEW Front Panel (idle state).** Operator interface showing resistance and voltage inputs, measurement gauges, circuit selection, and system status with the application switched off. The original screenshot will appear below after `images/front%20panel.jpg` is uploaded.
 
-![Figure 1 — LabVIEW Front Panel idle state](images/front-panel.jpg)
+![Figure 1 — LabVIEW Front Panel idle state](images/front%20panel.jpg)
 
 
 The application models a four-resistor DC circuit consisting of R1 and R2 in series with a parallel network (R3 || R4). An interactive LabVIEW Front Panel accepts a supply voltage and four resistor values, calculates the electrical quantities, and shows measurements, status and warning/error indicators while the program is running.
@@ -27,7 +27,7 @@ The application models a four-resistor DC circuit consisting of R1 and R2 in ser
 
 **Figure 2 — LabVIEW Block Diagram, Formula Node excerpt.** The graphical programming view shows circuit inputs, equations, selected measurements and warning/error outputs. It is a *close-up of the Formula Node* rather than a screenshot of the entire Block Diagram.
 
-![Figure 2 — LabVIEW Formula Node in Block Diagram](images/block-diagram.jpg)
+![Figure 2 — LabVIEW Formula Node in Block Diagram](images/blok%20diyagram.jpg)
 
 ## Example: monitored fault condition
 
@@ -44,7 +44,7 @@ Both **Hata 1 (overcurrent)** and **Hata 2 (excessive displayed power)** were vi
 
 **Figure 3 — Monitoring & Fault Detection.** Actual Front Panel screenshot at 26 V: 16.25 mA and 422.5 mW with two red error indicators and relevant operator messages.
 
-![Figure 3 — Current and power alarms triggered at 26 V](images/monitoring-and-alarms.jpg)
+![Figure 3 — Current and power alarms triggered at 26 V](images/monitor%20and%20alarms.jpg)
 
 ## Engineering relevance
 
@@ -75,6 +75,8 @@ A known numerical example and a visible over-limit Front Panel state have been d
 
 ## Portfolio
 
-[Engineering Portfolio (Notion)](https://guttural-galliform-d52.notion.site/Engineering-Portfolio-414920417b9d8034a902d6caa11becf1)
+[This project's Notion portfolio page](https://guttural-galliform-d52.notion.site/Electrical-Circuit-Monitoring-Protection-System-417920417b9d80489ab3f41235d920e9)
+
+[Engineering portfolio homepage](https://guttural-galliform-d52.notion.site/Engineering-Portfolio-414920417b9d8034a902d6caa11becf1)
 
 *Academic software simulation; for educational demonstration only. Not a certified electrical protection system.*
