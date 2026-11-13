@@ -8,11 +8,11 @@ The main documentation is tracked in this repository. To make the project fully 
 | --- | --- | --- |
 | Original LabVIEW program | `source/Electrical Circuit Monitoring & Protection System.vi` | Original, editable NI LabVIEW VI |
 | Original PDF technical report | `report/LabVIEW_Electrical_Circuit_Monitoring_Report.pdf` | Original supplied engineering report |
-| Screenshot of full Front Panel | `images/front-panel.jpg` | Show the normal operator interface |
-| Screenshot of Block Diagram | `images/block-diagram.jpg` | Show readable calculation and monitoring logic |
-| Screenshot of fault condition | `images/monitoring-and-alarms.jpg` | 26 V, current/power errors illuminated |
+| Screenshot of full Front Panel | `images/front panel.jpg` | Show the normal operator interface |
+| Screenshot of Block Diagram | `images/blok diyagram.jpg` | Show readable calculation and monitoring logic |
+| Screenshot of fault condition | `images/monitor and alarms.jpg` | 26 V, current/power errors illuminated |
 
-These are target paths, **not proof the assets have been uploaded**. Check the repository file browser before describing any asset as available.
+**Screenshot status:** All three JPEG images have been uploaded and verified in the repository. The VI and report remain separate items; check their folders before claiming they are available.
 
 ## How to run the VI (after the file has been uploaded)
 
