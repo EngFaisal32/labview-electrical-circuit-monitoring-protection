@@ -1,8 +1,8 @@
 # Original Source & Screenshot Assets
 
-The main documentation is tracked in this repository. To make the project fully reproducible and presentation-ready, the **original binary files** below must also be uploaded.
+The main documentation and all five listed original source/screenshot assets have been uploaded to this repository.
 
-## Recommended repository paths
+## Verified repository paths
 
 | Source | Target path | Notes |
 | --- | --- | --- |
@@ -12,9 +12,9 @@ The main documentation is tracked in this repository. To make the project fully 
 | Screenshot of Block Diagram | `images/blok diyagram.jpg` | Show readable calculation and monitoring logic |
 | Screenshot of fault condition | `images/monitor and alarms.jpg` | 26 V, current/power errors illuminated |
 
-**Screenshot status:** All three JPEG images have been uploaded and verified in the repository. The VI and report remain separate items; check their folders before claiming they are available.
+**Verified:** All three JPEG screenshots, the original LabVIEW VI and the PDF engineering report are present in the GitHub repository.
 
-## How to run the VI (after the file has been uploaded)
+## How to run the VI
 
 1. Install a compatible National Instruments LabVIEW environment (developed with **LabVIEW 2020**).
 2. Download and open `source/Electrical Circuit Monitoring & Protection System.vi`.
